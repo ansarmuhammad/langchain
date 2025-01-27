@@ -2,8 +2,8 @@ from groq import Groq
 from together import Together
 import os
 
-os.environ["TOGETHER_API_KEY"] = "your api key"
-os.environ["GROQ_API_KEY"] = "your api key"
+os.environ["TOGETHER_API_KEY"] = "your together api key"
+os.environ["GROQ_API_KEY"] = "your groq api key"
 # Function to summarize text using Groq model
 def summarize_text_with_groq(text):
     client = Groq()
