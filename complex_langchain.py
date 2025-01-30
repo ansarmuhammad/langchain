@@ -4,8 +4,8 @@ from langchain_groq import ChatGroq
 from langchain_core.prompts import ChatPromptTemplate
 
 # Set your API keys for the respective services
-os.environ["TOGETHER_API_KEY"] = "f204369c2f99be55eb5da6efcd3b6b7e9ecd79e55f51a171495e57dbb81bd880"
-os.environ["GROQ_API_KEY"] = "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"
+os.environ["TOGETHER_API_KEY"] = "Your togetherai api key"
+os.environ["GROQ_API_KEY"] = "Your groq api key"
 
 # Initialize the ChatTogether LLM for providing improvement suggestions
 llm_together = ChatTogether(
